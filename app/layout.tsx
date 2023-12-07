@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import React, { ReactNode } from 'react';
+import MainHeader from '@/components/main-header';
 
 export const metadata = {
   title: 'NextLevel Food',
@@ -30,7 +31,7 @@ export default function RootLayout({ children } : {children: ReactNode}) {
             ></path>
           </svg>
         </div>
-
+        <MainHeader />
         {children}
       </body>
     </html>
